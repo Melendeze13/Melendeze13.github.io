@@ -1,5 +1,5 @@
 #Elmer's Webpage
-##purpose
+##Purpose
 * This webpage will show my web programming abilities. 
-* It will give the reader a way of access my personal projects.
-* present a brief background of who I am.
+* It will give the reader a way of accessing my personal projects.
+* Present a brief background of who I am.
