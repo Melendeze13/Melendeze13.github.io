@@ -1,0 +1,149 @@
+header {
+    background-color: #00005f;
+    text-align: center;
+    color: #FFFFFF;
+    /*font-family: Georgia, sans-serif;*/
+    font-family: 'Bungee', cursive;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+
+body {
+    background-color: #2447ff;
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif;
+
+    background-image: url(background.jpg);
+}
+
+main {
+		padding-left:20px;
+		padding-right:20px;
+		background-color:#FFFFFF;
+        /*
+        This the indentation that separates the wrapper
+        with main, meaning in color. The same should also
+        be present in the footer.
+        margin-left:170px;
+        */
+		padding-top:1px;
+		padding-bottom:1px;
+}
+main img {
+        float:left;
+		padding-right: 20px;
+		padding-bottom: 20px;
+}
+
+main ul	{
+    list-style-position: inside;
+}
+
+.clear {
+    clear:both;
+}
+
+h1 {
+    line-height: 200%;
+    background-image: url(sunset.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-left:20px;
+    height:72px;
+    margin-bottom: 0;
+}
+h2 {
+    color: #3399CC;
+    /*font-family: Georgia, serif;*/
+    font-family: 'Proza Libre', sans-serif;
+
+}
+
+h3 {
+    color: #000033;
+    font-family: Georgia, serif;
+}
+
+
+dt {
+    color: #000033;
+    font-weight: bold;
+}
+
+footer {
+    color: #333333;
+    font-size: .70em;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    background-color:#FFFFFF;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+    /*
+    This the indentation that separates the wrapper
+    with main, meaning in color. The same should also
+    be present in the footer.
+    margin-left:170px;
+    */
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    /*background-color: #90c7e3;*/
+    border-radius: 25px;
+    min-width:700px;
+    max-width:1024px;
+    box-shadow: 5px 5px 5px #002840;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0f2633;
+}
+
+#nav li {
+    float: left;
+    /*border-right: 1px solid #bbb;*/
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+#nav li a:hover {
+    background-color: #111;
+}
+
+
+
+/*!*In case I want to add a active page marker *!*/
+/*#nav .active {*/
+    /*background-color: #20dae1;*/
+/*}*/
+
+/*#nav a:hover:not(.active) {*/
+    /*background-color: #111;*/
+/*}*/
+
+li:last-child {
+    border-right: none;
+}
+
+
+header, nav, main, footer {
+    display: block;
+}
+
