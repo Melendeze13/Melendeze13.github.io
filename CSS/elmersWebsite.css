@@ -1,0 +1,108 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+a:active {
+    top: 10px;
+}
+
+header {
+    font-family: 'Work Sans', 'Arsenal', sans-serif;
+}
+
+.wrapper {
+    /*    background-color: #3B8686;*/
+}
+
+body {
+    font-family: 'Arsenal', sans-serif;
+}
+
+nav,
+nav li {
+    /*centers the nav bar and makes in horizontal with inline*/
+    display: inline;
+    padding: 20px;
+}
+
+nav a {
+    padding: 25px 50px;
+    top: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #D3D3D3;
+    border-radius: 10px;
+}
+
+nav a:visited,
+nav a:link,
+nav a:hover,
+nav a:active {
+    color: #FFF;
+}
+
+main p {
+    padding: 25px 50px;
+    background-color: #D3D3D3;
+    color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 700px;
+    max-width: 1024px;
+    border-radius: 10px;
+}
+
+#ElmersPhoto {
+    height: 400px;
+    box-shadow: 5px 5px 5px 5px grey;
+    animation: fadeIn 2s;
+}
+
+
+/* animations */
+
+.aboutMe:hover {
+    -webkit-animation: tada 2s;
+    animation: tada .5s;
+}
+
+#ElmersPhoto:hover {
+    position: relative;
+    z-index: 999;
+    -o-transform: scale(1.02, 1.02);
+    -ms-transform: scale(1.03, 1.03);
+    -moz-transform: scale(1.02, 1.02);
+    -webkit-transform: scale(1.03, 1.03);
+    transform: scale(1.02, 1.02);
+}
+
+main p {
+    animation: fadeIn 1s;
+}
+
+nav a:hover {
+    position: relative;
+    z-index: 999;
+    -o-transform: scale(1.03, 1.03);
+    -ms-transform: scale(1.03, 1.03);
+    -moz-transform: scale(1.03, 1.03);
+    -webkit-transform: scale(1.03, 1.03);
+    transform: scale(1.03, 1.03);
+}
+
+nav a {
+    animation: fadeIn 1s;
+}
+
+footer {
+    animation: fadeIn 1s;
+}
+
+#homePageTile {
+    -webkit-animation: fadeInRight 2s;
+    animation: fadeInRight 1s;
+}

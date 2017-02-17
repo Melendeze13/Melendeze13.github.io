@@ -1,0 +1,24 @@
+# Windows
+Thumbs.db
+*.lnk
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.fuse_hidden
+.Trash-*
+.nsf*
+
+# OSX
+*.DS_Store
+
+# Project
+*~
+venv/
+.venv/
+ENV/
+__pycache__/
+*.db
+.idea/
+*.pyc
+.sass-cache
