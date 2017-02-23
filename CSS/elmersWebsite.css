@@ -33,7 +33,7 @@ nav a {
     top: 2px;
     font-size: 20px;
     text-decoration: none;
-    background-color: #D3D3D3;
+    background-color: #A8A8A8;
     border-radius: 10px;
 }
 
@@ -46,7 +46,7 @@ nav a:active {
 
 main p {
     padding: 25px 50px;
-    background-color: #D3D3D3;
+    background-color: #A8A8A8;
     color: #FFF;
     margin-left: auto;
     margin-right: auto;
