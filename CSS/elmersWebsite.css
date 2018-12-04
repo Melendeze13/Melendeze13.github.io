@@ -106,3 +106,12 @@ footer {
     -webkit-animation: fadeInRight 2s;
     animation: fadeInRight 1s;
 }
+
+#projectList {
+    display:table; 
+    margin:0 auto;
+    list-style-type: none;
+    padding: 20px;
+    display: block;
+
+}
