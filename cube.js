@@ -20,7 +20,7 @@ function init() {
 
     mesh = new THREE.Mesh( geometry, material );
 
-    var texture = new THREE.TextureLoader().load( 'https://aerotwist.com/static/tutorials/creating-particles-with-three-js/images/particle.png' );
+    var texture = new THREE.TextureLoader().load( 'https://raw.githubusercontent.com/Melendeze13/Particle-Cube/master/images/particle.png' );
 
 
      particleCount = 500;
