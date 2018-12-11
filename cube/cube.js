@@ -2,12 +2,16 @@ var camera, scene, renderer;
 var geometry, material, mesh, cameraControl;
 var particleSystem,particleCount,particles, particle;
 
+function preventBehavior(e) {
+    e.preventDefault(); 
+};
 
 init();
 animate();
 
 function init() {
 
+    document.addEventListener("touchmove", preventBehavior, {passive: false});
     camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.01, 2000 );
     camera.position.z = 1;
 
