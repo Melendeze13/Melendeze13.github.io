@@ -10,21 +10,18 @@ container, tick = 0, tock = 0, delta, delta2;
 var stats;
 var projectileSpawnerOptionsArray = [];
 var explosionSpawnerOptionsArray = []; 
-
-// var Rainbow = require('rainbowvis.js');
-var myRainbow = new Rainbow();
-
-console.log("0x" + myRainbow.colourAt(0));
-
-
-
-
+function preventBehavior(e) {
+    e.preventDefault(); 
+};
 
 
 init();
 animate();
 
 function init() {
+    
+    document.addEventListener("touchmove", preventBehavior, {passive: false});
+    
 
     // Create Camera
     camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.01, 2000 );
