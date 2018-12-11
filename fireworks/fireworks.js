@@ -96,7 +96,7 @@ function onWindowResize() {
 function fireworksInit() {
 
     particleSystem = new THREE.GPUParticleSystem( {
-        maxParticles: 1000
+        maxParticles: 10000
     } ); 
     scene.add( particleSystem );
 
@@ -127,7 +127,7 @@ function fireworksInit() {
     };
 
     // Create x different amount of particles
-    for (let x = 0; x < 100; x++)
+    for (let x = 0; x < 250; x++)
     {
         explosionSpawnerOptions = {
             spawnRate: 1,
