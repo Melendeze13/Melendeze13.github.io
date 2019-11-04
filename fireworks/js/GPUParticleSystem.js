@@ -175,7 +175,7 @@ THREE.GPUParticleSystem = function ( options ) {
 	this.particleNoiseTex = this.PARTICLE_NOISE_TEXTURE || textureLoader.load( 'http://groovemechanic.net/three.js/examples/textures/perlin-512.png' );
 	this.particleNoiseTex.wrapS = this.particleNoiseTex.wrapT = THREE.RepeatWrapping;
 
-	this.particleSpriteTex = this.PARTICLE_SPRITE_TEXTURE || textureLoader.load( 'https://raw.githubusercontent.com/mrdoob/three.js/master/examples/textures/particle2.png' );
+	this.particleSpriteTex = this.PARTICLE_SPRITE_TEXTURE || textureLoader.load( 'http://groovemechanic.net/three.js/examples/textures/particle2.png' );
 	this.particleSpriteTex.wrapS = this.particleSpriteTex.wrapT = THREE.RepeatWrapping;
 
 	this.particleShaderMat = new THREE.ShaderMaterial( {
